@@ -19,6 +19,7 @@ exports.onRenderBody = (
   const gtagScript = (
     <script
       async
+      defer
       key="gatsby-plugin-gtag-gtag-js"
       src={`${GTAG_SRC}?id=${pluginOptions.trackingId}`}
     />
